@@ -36,7 +36,7 @@ input, button {
   || Card ||
 \*-----------------------------------*/
 .container {
-  width: 100% !important;
+  width: 100% ;
 }
 
 .cardContainer {
@@ -99,7 +99,7 @@ input, button {
 .search_input {
   background-color: #ffffff;
   height: 30px;
-  width: calc(100% - 50px);
+  width: 100% ;
   padding: 10px 25px !important;
   transition: 750ms ease;
 }
@@ -109,8 +109,6 @@ input, button {
 }
 
 .search .search_btn {
-  height: 60px;
-  width:  60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,11 +116,14 @@ input, button {
 }
 
 .search  ion-icon {
-  color: #ffffff;
+  position: relative;
+  right: 38px;
+  color: #000;
   width:  40px;
   height: 40px;
   z-index: 900;
 }
+
 
 .city {
   font-family: "Rajdhani", sans-serif;
@@ -225,4 +226,14 @@ input, button {
   font-size: 0.6em;
   font-weight: 500;
   color: rgb(197, 197, 197);
+}
+
+/*-----------------------------------*\
+  || media queries ||
+\*-----------------------------------*/
+@media (max-width: 555px) {
+  .specs {
+    display: flex;
+    flex-direction: column;
+  }
 }
