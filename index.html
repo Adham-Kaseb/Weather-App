@@ -18,10 +18,10 @@
   <meta property="og:url" content=""       >   <!-- where do you want your post to link to      -->
   <meta property="og:type" content=""     >   <!-- type of your website and covers what topics -->
 
-  <title>Adham's Mini Framework</title>
+  <title>Adham's Weather App | V2</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="">
+  <link rel="icon" href="assets/images/favicon.ico">
 
   <!-- Vendors -->
   <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
@@ -31,12 +31,59 @@
 </head>
 <body>
 
-  
-  
-  
-  
-  
-  
+  <div class="container">
+
+    <div class="row gap-4 mb-5">
+
+      <div class="col-lg-6 col-md-12 ">
+        <div class="cardContainer">
+          <div class="card">
+
+            <div class="search">
+              <input type="text" placeholder="City Name" name="city_search" spellcheck="false" class="search_input rounded-pill"  id="search_input">
+              <button class="search_btn"><ion-icon name="search-circle"></ion-icon></button>
+            </div>
+
+            <span class="city">CAIRO</span>
+            <span class="weather">PARTILY CLOUDY</span>
+
+            <div class="specs">
+              <div class="weather_specs humidity">
+                <img src="assets/images/humidity.png">
+                <span>50%</span>
+              </div>
+              <div class="weather_images">
+                <image src="assets/images/clear.png"></image>
+              </div>
+              <div class="weather_specs wind">
+                <img src="assets/images/wind.png">
+                <span>50KM/H</span>
+              </div>
+            </div>
+
+            <span class="temp">32°</span>
+
+            <div class="minmaxContainer">
+              <div class="min">
+                <span class="minHeading">Min</span>
+                <span class="minTemp">30°</span>
+              </div>
+              <div class="max">
+                <span class="maxHeading">Max</span>
+                <span class="maxTemp">32°</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <!-- Vendors -->
+  <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script> <!-- BS5 Framework -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <!-- ion-icons  CDN -->
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">         </script> <!-- ion-icons  CDN -->
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
   <!-- Main JS File -->
   <script src="assets/js/mainScript.js"></script>
