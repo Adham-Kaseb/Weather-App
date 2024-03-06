@@ -1,11 +1,13 @@
 /*-----------------------------------*\
   || General Preset ||
 \*-----------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 
-*, *::before, *::after {
-  margin:  0;
+*,
+*::before,
+*::after {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -19,15 +21,20 @@ body {
   font-family: "Oxanium", sans-serif !important;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #212121;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FEA713;
+}
 
-::-webkit-scrollbar {width: 8px;}
-::-webkit-scrollbar-track { background-color: #ffffff;}
-::-webkit-scrollbar-thumb {background-color: #2B2B2B;}
-
-
-input, button {
-  background: none; 
-  border: none; 
+input,
+button {
+  background: none;
+  border: none;
   font: inherit;
   cursor: pointer;
 }
@@ -36,7 +43,7 @@ input, button {
   || Card ||
 \*-----------------------------------*/
 .container {
-  width: 100% ;
+  width: 100%;
 }
 
 .cardContainer {
@@ -115,14 +122,14 @@ input, button {
   padding: 5px 20px;
   font-size: 24px;
   font-weight: bold;
-  border-top-left-radius:    0px !important;
+  border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   background-color: rgba(173, 173, 173, 0.272);
   border-left: 1px solid gray;
   transition: all 250ms ease;
 }
 .search_btn:focus {
-  background-color: #FAB03C;
+  background-color: #fab03c;
   color: white;
   text-shadow: 2px 2px 3px black;
   outline: none;
@@ -173,12 +180,14 @@ input, button {
   color: #ffffff;
 }
 
-.weather_specs p, p {
+.weather_specs p,
+p {
   text-align: center;
   margin: 0 !important;
 }
 
-.weather_specs.humidity, .weather_specs.wind {
+.weather_specs.humidity,
+.weather_specs.wind {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,7 +195,7 @@ input, button {
   padding: 15px;
 }
 
-.weather_specs img{
+.weather_specs img {
   width: 40px;
   height: 40px;
 }
@@ -260,7 +269,7 @@ input, button {
   backdrop-filter: blur(30px);
   background-color: rgba(46, 46, 46, 0.674);
   text-align: center;
-  color: #E8920F;
+  color: #e8920f;
 }
 
 .logo {
@@ -284,7 +293,7 @@ input, button {
   fill: rgba(255, 255, 255, 0.797);
   width: 100%;
   transition: all 0.5s ease-in-out;
-  width:  30px;
+  width: 30px;
   height: 30px;
 }
 
@@ -322,15 +331,15 @@ input, button {
 }
 
 .box1::before {
-  background: linear-gradient(#0866FF, #0867ff67);
+  background: linear-gradient(#0866ff, #0867ff67);
 }
 
 .box1:hover::before {
   opacity: 1;
 }
 
-.box1:hover .icon a ion-icon{
-  filter: drop-shadow(0 0 5px #0866FF);
+.box1:hover .icon a ion-icon {
+  filter: drop-shadow(0 0 5px #0866ff);
 }
 
 .box2 {
