@@ -111,6 +111,7 @@ input, button {
 .search_btn {
   position: absolute;
   right: 20px;
+  color: #585858;
   padding: 5px 20px;
   font-size: 24px;
   font-weight: bold;
@@ -121,7 +122,10 @@ input, button {
   transition: all 250ms ease;
 }
 .search_btn:focus {
-  transform: scale(0.85);
+  background-color: #FAB03C;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  outline: none;
 }
 
 .city {
