@@ -24,12 +24,12 @@ This weather app was created by Adham Akseb, a front-end developer. The applicat
 2. Open the `index.html` file in your web browser.
 
 ## Usage
-1. Enter a location in the search bar to view the weather information.
-2. Explore the current weather conditions, hourly forecast, and daily forecast.
+1. Enter a location to view the weather information in the search bar.
+2. Explore the current weather conditions and daily forecast.
 3. Enjoy real-time weather updates!
 
 ## Screenshots
-Include screenshots of your weather app to showcase its interface and functionality.
+<img src="https://github.com/Adham-Kaseb/Weather-App/blob/main/weather%20app.gif">
 
 ## Credits
 - openWeatherMap Weaher API.
