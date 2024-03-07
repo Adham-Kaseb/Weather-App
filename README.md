@@ -31,7 +31,7 @@ This simple weather app was created by Adham Kaseb, a front-end developer. The a
 <img src="https://github.com/Adham-Kaseb/Weather-App/blob/main/weather%20app.gif">
 
 ## Credits
-- openWeatherMap Weaher API.
+- openWeatherMap Weather API.
 
 ## Contact
 For any inquiries or feedback, please contact me at adhamkasebssj4@gmail.com
